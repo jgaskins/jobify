@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+require 'jobify'
+
+include Jobify
+
+puts report from_string(ARGF.read)
